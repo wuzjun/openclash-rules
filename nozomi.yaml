@@ -4,1042 +4,1042 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: IPv6 ÈÕ±¾ A01 ÒÆ¶¯¿í´øÓÅ»¯, server: faa01.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: IPv6 ÈÕ±¾ A02 ÒÆ¶¯¿í´øÓÅ»¯, server: faa02.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: IPv6 ÈÕ±¾ A03 ÒÆ¶¯¿í´øÓÅ»¯, server: faa03.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: IPv6 ÈÕ±¾ A04 ÒÆ¶¯¿í´øÓÅ»¯, server: faa04.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: IPv6 ÈÕ±¾ A05 ÒÆ¶¯¿í´øÓÅ»¯, server: faa05.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: IPv6 ÈÕ±¾ A06 ÒÆ¶¯¿í´øÓÅ»¯, server: faa01.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A01, server: ca01.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A02, server: ca02.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A03, server: ca03.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A04, server: ca04.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A05, server: ca05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ¼ÓÄÃ´ó A06, server: ca06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A01 IEPL×¨Ïß, server: in01.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A02 IEPL×¨Ïß, server: in02.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A03 IEPL×¨Ïß, server: in03.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A04 IEPL×¨Ïß, server: in04.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A05 IEPL×¨Ïß, server: in05.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¡¶È A06 IEPL×¨Ïß, server: in06.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A01, server: tw01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A02, server: tw02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A03, server: tw03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A04, server: tw04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A05, server: tw05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A06, server: tw06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A07, server: tw07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A08, server: tw08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A09, server: tw09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A10, server: tw10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A11, server: twct01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A12, server: twct02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A13, server: twct03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A14, server: twct04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A15, server: twct05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A16, server: twct06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A17, server: twct07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A18, server: twct08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A19, server: twct09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A20, server: twct10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A21, server: twgame01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A22, server: twgame02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A23, server: twgame03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A24, server: twgame04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A25, server: twgame05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A26, server: twgame06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A27, server: twgame07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A28, server: twgame08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A29, server: twgame09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ì¨Íå A30, server: twgame10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A01 IEPL×¨Ïß, server: ge01.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A02 IEPL×¨Ïß, server: ge02.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A03 IEPL×¨Ïß, server: ge03.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A04 IEPL×¨Ïß, server: ge04.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A05 IEPL×¨Ïß, server: ge05.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: µÂ¹ú A06 IEPL×¨Ïß, server: ge06.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A01, server: sgp01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A02, server: sgp02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A03, server: sgp03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A04, server: sgp04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A05, server: sgp05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A06, server: sgp06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A07, server: sgp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A08, server: sgp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A09, server: sgp09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A10, server: sgp10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A11 IEPL×¨Ïß, server: sgp11.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A12 IEPL×¨Ïß, server: sgp12.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A13 IEPL×¨Ïß, server: sgp13.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A14 IEPL×¨Ïß, server: sgp14.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A15 IEPL×¨Ïß, server: sgp15.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A16 IEPL×¨Ïß, server: sgp16.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A17 IEPL×¨Ïß, server: sgp17.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A18 IEPL×¨Ïß, server: sgp18.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A19 IEPL×¨Ïß, server: sgp19.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ĞÂ¼ÓÆÂ A20 IEPL×¨Ïß, server: sgp20.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A01 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A02 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A03 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A04 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A05 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A06 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A07 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A08 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A09 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A10 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A11 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp11.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A12 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp12.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A13 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp13.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A14 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp14.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A15 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp15.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A16 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: jp16.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A17 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp17.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A18 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp18.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A19 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp19.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A20 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: jp20.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A21 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: hr01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A22 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: hr02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A23 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯, server: hr03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A24 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯, server: hr04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A25 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: hr05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A26 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯, server: hr06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A27 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: hr07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A28 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: hr08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A29 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: hr09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÈÕ±¾ A30 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯, server: hr10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A01 IEPL×¨Ïß, server: fr01.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A02 IEPL×¨Ïß, server: fr02.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A03 IEPL×¨Ïß, server: fr03.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A04 IEPL×¨Ïß, server: fr04.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A05 IEPL×¨Ïß, server: fr05.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ·¨¹ú A06 IEPL×¨Ïß, server: fr06.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A01 IEPL×¨Ïß, server: au01.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A02 IEPL×¨Ïß, server: au02.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A03 IEPL×¨Ïß, server: au03.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A04 IEPL×¨Ïß, server: au04.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A05 IEPL×¨Ïß, server: au05.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: °Ä´óÀûÑÇ A06 IEPL×¨Ïß, server: au06.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A01 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯, server: us01.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A02 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯, server: us02.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A03 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯, server: us03.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A04 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯, server: us04.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A05 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯, server: us05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A06 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯, server: us06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A07 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯, server: us07.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A08 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯, server: us08.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A09 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯, server: us09.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A10 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯, server: us10.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A11 IEPL×¨Ïß Gemini, server: us11.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A12 IEPL×¨Ïß Gemini, server: us12.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A13 IEPL×¨Ïß Gemini, server: us13.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A14 IEPL×¨Ïß Gemini, server: us14.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A15 IEPL×¨Ïß Gemini, server: us15.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A16 IEPL×¨Ïß Gemini, server: us16.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A17 IEPL×¨Ïß Gemini, server: us17.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A18 IEPL×¨Ïß Gemini, server: us18.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A19 IEPL×¨Ïß Gemini, server: us19.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: ÃÀ¹ú A20 IEPL×¨Ïß Gemini, server: us20.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A01 IEPL×¨Ïß, server: uk01.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A02 IEPL×¨Ïß, server: uk02.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A03 IEPL×¨Ïß, server: uk03.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A04 IEPL×¨Ïß, server: uk04.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A05 IEPL×¨Ïß, server: uk05.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ó¢¹ú A06 IEPL×¨Ïß, server: uk06.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A01 IEPL×¨Ïß, server: kr01.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A02 IEPL×¨Ïß, server: kr02.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A03 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯, server: kr03.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A04 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯, server: kr04.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A05 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯, server: kr05.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: º«¹ú A06 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯, server: kr06.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A01 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: hk01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A02 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: hk02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A03 IEPL×¨Ïß µçĞÅÓÅ»¯, server: hk03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A04 IEPL×¨Ïß µçĞÅÓÅ»¯, server: hk04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A05 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯, server: hk05.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A06 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯, server: hk06.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A07 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: hk07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A08 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: hk08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A09 IEPL×¨Ïß µçĞÅÓÅ»¯, server: hk09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A10 IEPL×¨Ïß µçĞÅÓÅ»¯, server: hk10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A11 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: pccw01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A12 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: pccw02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A13 IEPL×¨Ïß µçĞÅÓÅ»¯, server: pccw03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A14 IEPL×¨Ïß µçĞÅÓÅ»¯, server: pccw04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A15 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯, server: pccw05.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A16 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯, server: pccw06.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A17 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: pccw07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A18 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯, server: pccw08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A19 IEPL×¨Ïß µçĞÅÓÅ»¯, server: pccw09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: Ïã¸Û A20 IEPL×¨Ïß µçĞÅÓÅ»¯, server: pccw10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A01 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa01.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A02 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa02.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A03 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa03.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A04 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa04.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A05 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa05.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: IPv6 æ—¥æœ¬ A06 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–, server: faa01.ctemanufushi.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A01, server: ca01.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A02, server: ca02.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A03, server: ca03.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A04, server: ca04.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A05, server: ca05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: åŠ æ‹¿å¤§ A06, server: ca06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A01 IEPLä¸“çº¿, server: in01.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A02 IEPLä¸“çº¿, server: in02.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A03 IEPLä¸“çº¿, server: in03.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A04 IEPLä¸“çº¿, server: in04.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A05 IEPLä¸“çº¿, server: in05.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°åº¦ A06 IEPLä¸“çº¿, server: in06.fjk.wtf, port: 1400, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A01, server: tw01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A02, server: tw02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A03, server: tw03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A04, server: tw04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A05, server: tw05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A06, server: tw06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A07, server: tw07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A08, server: tw08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A09, server: tw09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A10, server: tw10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A11, server: twct01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A12, server: twct02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A13, server: twct03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A14, server: twct04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A15, server: twct05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A16, server: twct06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A17, server: twct07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A18, server: twct08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A19, server: twct09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A20, server: twct10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A21, server: twgame01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A22, server: twgame02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A23, server: twgame03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A24, server: twgame04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A25, server: twgame05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A26, server: twgame06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A27, server: twgame07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A28, server: twgame08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A29, server: twgame09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å°æ¹¾ A30, server: twgame10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A01 IEPLä¸“çº¿, server: ge01.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A02 IEPLä¸“çº¿, server: ge02.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A03 IEPLä¸“çº¿, server: ge03.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A04 IEPLä¸“çº¿, server: ge04.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A05 IEPLä¸“çº¿, server: ge05.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: å¾·å›½ A06 IEPLä¸“çº¿, server: ge06.fjk.wtf, port: 1900, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A01, server: sgp01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A02, server: sgp02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A03, server: sgp03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A04, server: sgp04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A05, server: sgp05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A06, server: sgp06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A07, server: sgp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A08, server: sgp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A09, server: sgp09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A10, server: sgp10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A11 IEPLä¸“çº¿, server: sgp11.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A12 IEPLä¸“çº¿, server: sgp12.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A13 IEPLä¸“çº¿, server: sgp13.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A14 IEPLä¸“çº¿, server: sgp14.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A15 IEPLä¸“çº¿, server: sgp15.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A16 IEPLä¸“çº¿, server: sgp16.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A17 IEPLä¸“çº¿, server: sgp17.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A18 IEPLä¸“çº¿, server: sgp18.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A19 IEPLä¸“çº¿, server: sgp19.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ–°åŠ å¡ A20 IEPLä¸“çº¿, server: sgp20.forentier.org, port: 1100, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A01 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A02 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A03 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A04 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A05 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A06 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A07 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A08 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A09 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A10 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A11 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp11.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A12 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp12.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A13 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp13.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A14 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp14.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A15 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp15.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A16 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: jp16.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A17 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp17.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A18 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp18.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A19 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp19.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A20 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: jp20.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A21 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: hr01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A22 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: hr02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A23 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–, server: hr03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A24 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–, server: hr04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A25 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: hr05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A26 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–, server: hr06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A27 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: hr07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A28 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: hr08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A29 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: hr09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ—¥æœ¬ A30 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–, server: hr10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A01 IEPLä¸“çº¿, server: fr01.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A02 IEPLä¸“çº¿, server: fr02.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A03 IEPLä¸“çº¿, server: fr03.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A04 IEPLä¸“çº¿, server: fr04.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A05 IEPLä¸“çº¿, server: fr05.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ³•å›½ A06 IEPLä¸“çº¿, server: fr06.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A01 IEPLä¸“çº¿, server: au01.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A02 IEPLä¸“çº¿, server: au02.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A03 IEPLä¸“çº¿, server: au03.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A04 IEPLä¸“çº¿, server: au04.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A05 IEPLä¸“çº¿, server: au05.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: æ¾³å¤§åˆ©äºš A06 IEPLä¸“çº¿, server: au06.fjk.wtf, port: 1600, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A01 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–, server: us01.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A02 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–, server: us02.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A03 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–, server: us03.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A04 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–, server: us04.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A05 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–, server: us05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A06 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–, server: us06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A07 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–, server: us07.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A08 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–, server: us08.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A09 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–, server: us09.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A10 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–, server: us10.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A11 IEPLä¸“çº¿ Gemini, server: us11.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A12 IEPLä¸“çº¿ Gemini, server: us12.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A13 IEPLä¸“çº¿ Gemini, server: us13.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A14 IEPLä¸“çº¿ Gemini, server: us14.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A15 IEPLä¸“çº¿ Gemini, server: us15.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A16 IEPLä¸“çº¿ Gemini, server: us16.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A17 IEPLä¸“çº¿ Gemini, server: us17.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A18 IEPLä¸“çº¿ Gemini, server: us18.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A19 IEPLä¸“çº¿ Gemini, server: us19.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: ç¾å›½ A20 IEPLä¸“çº¿ Gemini, server: us20.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A01 IEPLä¸“çº¿, server: uk01.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A02 IEPLä¸“çº¿, server: uk02.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A03 IEPLä¸“çº¿, server: uk03.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A04 IEPLä¸“çº¿, server: uk04.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A05 IEPLä¸“çº¿, server: uk05.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: è‹±å›½ A06 IEPLä¸“çº¿, server: uk06.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A01 IEPLä¸“çº¿, server: kr01.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A02 IEPLä¸“çº¿, server: kr02.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A03 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–, server: kr03.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A04 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–, server: kr04.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A05 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–, server: kr05.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: éŸ©å›½ A06 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–, server: kr06.fjk.wtf, port: 1200, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A01 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: hk01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A02 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: hk02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A03 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: hk03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A04 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: hk04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A05 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–, server: hk05.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A06 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–, server: hk06.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A07 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: hk07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A08 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: hk08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A09 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: hk09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A10 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: hk10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A11 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: pccw01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A12 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: pccw02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A13 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: pccw03.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A14 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: pccw04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A15 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–, server: pccw05.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A16 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–, server: pccw06.fualta.org, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A17 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: pccw07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A18 IEPLä¸“çº¿ è”é€šä¼˜åŒ–, server: pccw08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A19 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: pccw09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: é¦™æ¸¯ A20 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–, server: pccw10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
 proxy-groups:
-  - name: ? Notion
+  - name: ğŸ“¦ Notion
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
       - DIRECT
-      - ? Default
-  - name: ? Apple
+      - ğŸŒ Default
+  - name: ğŸ Apple
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
       - DIRECT
-      - ? Default
-  - name: ? ChatGPT
+      - ğŸŒ Default
+  - name: ğŸ¤– ChatGPT
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? USÊÖ¶¯
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? AI
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ USæ‰‹åŠ¨
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ§  AI
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? USÊÖ¶¯
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Telegram
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ USæ‰‹åŠ¨
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ“¨ Telegram
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? ¼´Ê±Í¨Ñ¶
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ“ å³æ—¶é€šè®¯
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Éç½»Ã½Ìå
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ’¬ ç¤¾äº¤åª’ä½“
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? ¸ÉºÃÊÂ
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸª å¹²å¥½äº‹
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? YouTube
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ¬ YouTube
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Netflix
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ¥ Netflix
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? TikTok
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸµ TikTok
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Instagram
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ“¸ Instagram
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? X
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ¦ X
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? GitHub
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ›  GitHub
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? ²âËÙ¹¤¾ß
-    type: select
-    proxies:
-      - DIRECT
-      - ? ÊÖ¶¯Ñ¡Ôñ
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? dns¼ì²â
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸš æµ‹é€Ÿå·¥å…·
     type: select
     proxies:
       - DIRECT
-      - ? ÊÖ¶¯Ñ¡Ôñ
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Steam
+      - ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ§¬ dnsæ£€æµ‹
     type: select
     proxies:
       - DIRECT
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? OKX
+      - ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸ® Steam
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
       - DIRECT
-      - ? Default
-  - name: ? Binance
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸŸ¦ OKX
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
       - DIRECT
-      - ? Default
-  - name: ? Bybit
+      - ğŸŒ Default
+  - name: ğŸŸ¨ Binance
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
       - DIRECT
-      - ? Default
-  - name: ? Adobe
+      - ğŸŒ Default
+  - name: ğŸŸª Bybit
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - DIRECT
+      - ğŸŒ Default
+  - name: ğŸŸ¥ Adobe
+    type: select
+    proxies:
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
       - DIRECT
       - REJECT
-      - ? Default
-  - name: ? Google
+      - ğŸŒ Default
+  - name: ğŸ” Google
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ?? cloudflare
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: â˜ï¸ cloudflare
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? Microsoft
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸªŸ Microsoft
     type: select
     proxies:
       - DIRECT
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? Default
-  - name: ? ÊÖ¶¯Ñ¡Ôñ
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸŒ Default
+  - name: ğŸš€ æ‰‹åŠ¨é€‰æ‹©
     type: select
     proxies:
-      - ?? ×Ô¶¯Ñ¡Ôñ
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ? ÊÖ¶¯Ñ¡Ôñ
+      - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
       - DIRECT
-  - name: ? Default
+  - name: ğŸŒ Default
     type: select
     proxies:
-      - ?? HK
-      - ?? TW
-      - ?? JP
-      - ?? SG
-      - ?? US
-      - ? ÀäÃÅ½Úµã
-      - ?? ×Ô¶¯Ñ¡Ôñ
-      - ? ÊÖ¶¯Ñ¡Ôñ
+      - ğŸ‡­ğŸ‡° HK
+      - ğŸ‡¹ğŸ‡¼ TW
+      - ğŸ‡¯ğŸ‡µ JP
+      - ğŸ‡¸ğŸ‡¬ SG
+      - ğŸ‡ºğŸ‡¸ US
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
+      - ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
       - DIRECT
-  - name: ? Â©ÍøÖ®Óã
+  - name: ğŸŸ æ¼ç½‘ä¹‹é±¼
     type: select
     proxies:
-      - ? Default
+      - ğŸŒ Default
       - DIRECT
-      - ?? ×Ô¶¯Ñ¡Ôñ
-      - ? ÀäÃÅ½Úµã
-      - ? ÊÖ¶¯Ñ¡Ôñ
-      - ? ÊÖ¶¯Ñ¡Ôñ
-  - name: ? ·Ç±ê¶Ë¿Ú
+      - â™»ï¸ è‡ªåŠ¨é€‰æ‹©
+      - ğŸ§Š å†·é—¨èŠ‚ç‚¹
+      - ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
+      - ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - name: ğŸ”€ éæ ‡ç«¯å£
     type: select
     proxies:
-      - ? ×ñÑ­¹æÔò
+      - ğŸŸ éµå¾ªè§„åˆ™
       - DIRECT
-  - name: ? ×ñÑ­¹æÔò
+  - name: ğŸŸ éµå¾ªè§„åˆ™
     type: select
     proxies:
-      - ? Â©ÍøÖ®Óã
-  - name: ? ÊÖ¶¯Ñ¡Ôñ
+      - ğŸŸ æ¼ç½‘ä¹‹é±¼
+  - name: ğŸ§­ æ‰‹åŠ¨é€‰æ‹©
     type: select
     proxies:
-      - IPv6 ÈÕ±¾ A01 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A02 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A03 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A04 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A05 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A06 ÒÆ¶¯¿í´øÓÅ»¯
-      - ¼ÓÄÃ´ó A01
-      - ¼ÓÄÃ´ó A02
-      - ¼ÓÄÃ´ó A03
-      - ¼ÓÄÃ´ó A04
-      - ¼ÓÄÃ´ó A05
-      - ¼ÓÄÃ´ó A06
-      - Ó¡¶È A01 IEPL×¨Ïß
-      - Ó¡¶È A02 IEPL×¨Ïß
-      - Ó¡¶È A03 IEPL×¨Ïß
-      - Ó¡¶È A04 IEPL×¨Ïß
-      - Ó¡¶È A05 IEPL×¨Ïß
-      - Ó¡¶È A06 IEPL×¨Ïß
-      - Ì¨Íå A01
-      - Ì¨Íå A02
-      - Ì¨Íå A03
-      - Ì¨Íå A04
-      - Ì¨Íå A05
-      - Ì¨Íå A06
-      - Ì¨Íå A07
-      - Ì¨Íå A08
-      - Ì¨Íå A09
-      - Ì¨Íå A10
-      - Ì¨Íå A11
-      - Ì¨Íå A12
-      - Ì¨Íå A13
-      - Ì¨Íå A14
-      - Ì¨Íå A15
-      - Ì¨Íå A16
-      - Ì¨Íå A17
-      - Ì¨Íå A18
-      - Ì¨Íå A19
-      - Ì¨Íå A20
-      - Ì¨Íå A21
-      - Ì¨Íå A22
-      - Ì¨Íå A23
-      - Ì¨Íå A24
-      - Ì¨Íå A25
-      - Ì¨Íå A26
-      - Ì¨Íå A27
-      - Ì¨Íå A28
-      - Ì¨Íå A29
-      - Ì¨Íå A30
-      - µÂ¹ú A01 IEPL×¨Ïß
-      - µÂ¹ú A02 IEPL×¨Ïß
-      - µÂ¹ú A03 IEPL×¨Ïß
-      - µÂ¹ú A04 IEPL×¨Ïß
-      - µÂ¹ú A05 IEPL×¨Ïß
-      - µÂ¹ú A06 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A01
-      - ĞÂ¼ÓÆÂ A02
-      - ĞÂ¼ÓÆÂ A03
-      - ĞÂ¼ÓÆÂ A04
-      - ĞÂ¼ÓÆÂ A05
-      - ĞÂ¼ÓÆÂ A06
-      - ĞÂ¼ÓÆÂ A07
-      - ĞÂ¼ÓÆÂ A08
-      - ĞÂ¼ÓÆÂ A09
-      - ĞÂ¼ÓÆÂ A10
-      - ĞÂ¼ÓÆÂ A11 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A12 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A13 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A14 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A15 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A16 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A17 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A18 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A19 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A20 IEPL×¨Ïß
-      - ÈÕ±¾ A01 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A02 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A03 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A04 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A05 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A06 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A07 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A08 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A09 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A10 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A11 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A12 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A13 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A14 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A15 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A16 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A17 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A18 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A19 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A20 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A21 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A22 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A23 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A24 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A25 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A26 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A27 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A28 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A29 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A30 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ·¨¹ú A01 IEPL×¨Ïß
-      - ·¨¹ú A02 IEPL×¨Ïß
-      - ·¨¹ú A03 IEPL×¨Ïß
-      - ·¨¹ú A04 IEPL×¨Ïß
-      - ·¨¹ú A05 IEPL×¨Ïß
-      - ·¨¹ú A06 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A01 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A02 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A03 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A04 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A05 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A06 IEPL×¨Ïß
-      - ÃÀ¹ú A01 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A02 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A03 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A04 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A05 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A06 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A07 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A08 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A09 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A10 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A11 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A12 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A13 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A14 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A15 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A16 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A17 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A18 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A19 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A20 IEPL×¨Ïß Gemini
-      - Ó¢¹ú A01 IEPL×¨Ïß
-      - Ó¢¹ú A02 IEPL×¨Ïß
-      - Ó¢¹ú A03 IEPL×¨Ïß
-      - Ó¢¹ú A04 IEPL×¨Ïß
-      - Ó¢¹ú A05 IEPL×¨Ïß
-      - Ó¢¹ú A06 IEPL×¨Ïß
-      - º«¹ú A01 IEPL×¨Ïß
-      - º«¹ú A02 IEPL×¨Ïß
-      - º«¹ú A03 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A04 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A05 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
-      - º«¹ú A06 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
-      - Ïã¸Û A01 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A02 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A03 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A04 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A05 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A06 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A07 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A08 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A09 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A10 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A11 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A12 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A13 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A14 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A15 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A16 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A17 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A18 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A19 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A20 IEPL×¨Ïß µçĞÅÓÅ»¯
-  - name: ?? ×Ô¶¯Ñ¡Ôñ
+      - IPv6 æ—¥æœ¬ A01 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A02 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A03 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A04 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A05 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A06 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - åŠ æ‹¿å¤§ A01
+      - åŠ æ‹¿å¤§ A02
+      - åŠ æ‹¿å¤§ A03
+      - åŠ æ‹¿å¤§ A04
+      - åŠ æ‹¿å¤§ A05
+      - åŠ æ‹¿å¤§ A06
+      - å°åº¦ A01 IEPLä¸“çº¿
+      - å°åº¦ A02 IEPLä¸“çº¿
+      - å°åº¦ A03 IEPLä¸“çº¿
+      - å°åº¦ A04 IEPLä¸“çº¿
+      - å°åº¦ A05 IEPLä¸“çº¿
+      - å°åº¦ A06 IEPLä¸“çº¿
+      - å°æ¹¾ A01
+      - å°æ¹¾ A02
+      - å°æ¹¾ A03
+      - å°æ¹¾ A04
+      - å°æ¹¾ A05
+      - å°æ¹¾ A06
+      - å°æ¹¾ A07
+      - å°æ¹¾ A08
+      - å°æ¹¾ A09
+      - å°æ¹¾ A10
+      - å°æ¹¾ A11
+      - å°æ¹¾ A12
+      - å°æ¹¾ A13
+      - å°æ¹¾ A14
+      - å°æ¹¾ A15
+      - å°æ¹¾ A16
+      - å°æ¹¾ A17
+      - å°æ¹¾ A18
+      - å°æ¹¾ A19
+      - å°æ¹¾ A20
+      - å°æ¹¾ A21
+      - å°æ¹¾ A22
+      - å°æ¹¾ A23
+      - å°æ¹¾ A24
+      - å°æ¹¾ A25
+      - å°æ¹¾ A26
+      - å°æ¹¾ A27
+      - å°æ¹¾ A28
+      - å°æ¹¾ A29
+      - å°æ¹¾ A30
+      - å¾·å›½ A01 IEPLä¸“çº¿
+      - å¾·å›½ A02 IEPLä¸“çº¿
+      - å¾·å›½ A03 IEPLä¸“çº¿
+      - å¾·å›½ A04 IEPLä¸“çº¿
+      - å¾·å›½ A05 IEPLä¸“çº¿
+      - å¾·å›½ A06 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A01
+      - æ–°åŠ å¡ A02
+      - æ–°åŠ å¡ A03
+      - æ–°åŠ å¡ A04
+      - æ–°åŠ å¡ A05
+      - æ–°åŠ å¡ A06
+      - æ–°åŠ å¡ A07
+      - æ–°åŠ å¡ A08
+      - æ–°åŠ å¡ A09
+      - æ–°åŠ å¡ A10
+      - æ–°åŠ å¡ A11 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A12 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A13 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A14 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A15 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A16 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A17 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A18 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A19 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A20 IEPLä¸“çº¿
+      - æ—¥æœ¬ A01 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A02 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A03 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A04 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A05 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A06 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A07 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A08 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A09 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A10 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A11 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A12 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A13 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A14 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A15 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A16 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A17 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A18 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A19 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A20 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A21 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A22 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A23 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A24 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A25 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A26 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A27 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A28 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A29 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A30 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ³•å›½ A01 IEPLä¸“çº¿
+      - æ³•å›½ A02 IEPLä¸“çº¿
+      - æ³•å›½ A03 IEPLä¸“çº¿
+      - æ³•å›½ A04 IEPLä¸“çº¿
+      - æ³•å›½ A05 IEPLä¸“çº¿
+      - æ³•å›½ A06 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A01 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A02 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A03 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A04 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A05 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A06 IEPLä¸“çº¿
+      - ç¾å›½ A01 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A02 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A03 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A04 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A05 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A06 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A07 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A08 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A09 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A10 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A11 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A12 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A13 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A14 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A15 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A16 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A17 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A18 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A19 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A20 IEPLä¸“çº¿ Gemini
+      - è‹±å›½ A01 IEPLä¸“çº¿
+      - è‹±å›½ A02 IEPLä¸“çº¿
+      - è‹±å›½ A03 IEPLä¸“çº¿
+      - è‹±å›½ A04 IEPLä¸“çº¿
+      - è‹±å›½ A05 IEPLä¸“çº¿
+      - è‹±å›½ A06 IEPLä¸“çº¿
+      - éŸ©å›½ A01 IEPLä¸“çº¿
+      - éŸ©å›½ A02 IEPLä¸“çº¿
+      - éŸ©å›½ A03 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A04 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A05 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
+      - éŸ©å›½ A06 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
+      - é¦™æ¸¯ A01 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A02 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A03 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A04 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A05 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A06 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A07 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A08 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A09 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A10 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A11 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A12 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A13 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A14 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A15 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A16 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A17 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A18 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A19 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A20 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+  - name: â™»ï¸ è‡ªåŠ¨é€‰æ‹©
     type: url-test
     url: https://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IPv6 ÈÕ±¾ A01 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A02 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A03 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A04 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A05 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A06 ÒÆ¶¯¿í´øÓÅ»¯
-      - ¼ÓÄÃ´ó A01
-      - ¼ÓÄÃ´ó A02
-      - ¼ÓÄÃ´ó A03
-      - ¼ÓÄÃ´ó A04
-      - ¼ÓÄÃ´ó A05
-      - ¼ÓÄÃ´ó A06
-      - Ó¡¶È A01 IEPL×¨Ïß
-      - Ó¡¶È A02 IEPL×¨Ïß
-      - Ó¡¶È A03 IEPL×¨Ïß
-      - Ó¡¶È A04 IEPL×¨Ïß
-      - Ó¡¶È A05 IEPL×¨Ïß
-      - Ó¡¶È A06 IEPL×¨Ïß
-      - Ì¨Íå A01
-      - Ì¨Íå A02
-      - Ì¨Íå A03
-      - Ì¨Íå A04
-      - Ì¨Íå A05
-      - Ì¨Íå A06
-      - Ì¨Íå A07
-      - Ì¨Íå A08
-      - Ì¨Íå A09
-      - Ì¨Íå A10
-      - Ì¨Íå A11
-      - Ì¨Íå A12
-      - Ì¨Íå A13
-      - Ì¨Íå A14
-      - Ì¨Íå A15
-      - Ì¨Íå A16
-      - Ì¨Íå A17
-      - Ì¨Íå A18
-      - Ì¨Íå A19
-      - Ì¨Íå A20
-      - Ì¨Íå A21
-      - Ì¨Íå A22
-      - Ì¨Íå A23
-      - Ì¨Íå A24
-      - Ì¨Íå A25
-      - Ì¨Íå A26
-      - Ì¨Íå A27
-      - Ì¨Íå A28
-      - Ì¨Íå A29
-      - Ì¨Íå A30
-      - µÂ¹ú A01 IEPL×¨Ïß
-      - µÂ¹ú A02 IEPL×¨Ïß
-      - µÂ¹ú A03 IEPL×¨Ïß
-      - µÂ¹ú A04 IEPL×¨Ïß
-      - µÂ¹ú A05 IEPL×¨Ïß
-      - µÂ¹ú A06 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A01
-      - ĞÂ¼ÓÆÂ A02
-      - ĞÂ¼ÓÆÂ A03
-      - ĞÂ¼ÓÆÂ A04
-      - ĞÂ¼ÓÆÂ A05
-      - ĞÂ¼ÓÆÂ A06
-      - ĞÂ¼ÓÆÂ A07
-      - ĞÂ¼ÓÆÂ A08
-      - ĞÂ¼ÓÆÂ A09
-      - ĞÂ¼ÓÆÂ A10
-      - ĞÂ¼ÓÆÂ A11 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A12 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A13 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A14 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A15 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A16 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A17 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A18 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A19 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A20 IEPL×¨Ïß
-      - ÈÕ±¾ A01 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A02 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A03 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A04 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A05 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A06 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A07 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A08 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A09 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A10 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A11 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A12 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A13 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A14 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A15 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A16 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A17 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A18 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A19 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A20 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A21 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A22 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A23 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A24 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A25 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A26 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A27 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A28 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A29 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A30 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ·¨¹ú A01 IEPL×¨Ïß
-      - ·¨¹ú A02 IEPL×¨Ïß
-      - ·¨¹ú A03 IEPL×¨Ïß
-      - ·¨¹ú A04 IEPL×¨Ïß
-      - ·¨¹ú A05 IEPL×¨Ïß
-      - ·¨¹ú A06 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A01 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A02 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A03 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A04 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A05 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A06 IEPL×¨Ïß
-      - ÃÀ¹ú A01 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A02 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A03 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A04 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A05 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A06 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A07 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A08 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A09 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A10 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A11 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A12 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A13 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A14 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A15 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A16 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A17 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A18 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A19 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A20 IEPL×¨Ïß Gemini
-      - Ó¢¹ú A01 IEPL×¨Ïß
-      - Ó¢¹ú A02 IEPL×¨Ïß
-      - Ó¢¹ú A03 IEPL×¨Ïß
-      - Ó¢¹ú A04 IEPL×¨Ïß
-      - Ó¢¹ú A05 IEPL×¨Ïß
-      - Ó¢¹ú A06 IEPL×¨Ïß
-      - º«¹ú A01 IEPL×¨Ïß
-      - º«¹ú A02 IEPL×¨Ïß
-      - º«¹ú A03 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A04 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A05 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
-      - º«¹ú A06 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
-      - Ïã¸Û A01 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A02 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A03 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A04 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A05 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A06 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A07 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A08 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A09 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A10 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A11 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A12 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A13 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A14 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A15 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A16 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A17 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A18 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A19 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A20 IEPL×¨Ïß µçĞÅÓÅ»¯
-  - name: ?? HK
+      - IPv6 æ—¥æœ¬ A01 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A02 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A03 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A04 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A05 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A06 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - åŠ æ‹¿å¤§ A01
+      - åŠ æ‹¿å¤§ A02
+      - åŠ æ‹¿å¤§ A03
+      - åŠ æ‹¿å¤§ A04
+      - åŠ æ‹¿å¤§ A05
+      - åŠ æ‹¿å¤§ A06
+      - å°åº¦ A01 IEPLä¸“çº¿
+      - å°åº¦ A02 IEPLä¸“çº¿
+      - å°åº¦ A03 IEPLä¸“çº¿
+      - å°åº¦ A04 IEPLä¸“çº¿
+      - å°åº¦ A05 IEPLä¸“çº¿
+      - å°åº¦ A06 IEPLä¸“çº¿
+      - å°æ¹¾ A01
+      - å°æ¹¾ A02
+      - å°æ¹¾ A03
+      - å°æ¹¾ A04
+      - å°æ¹¾ A05
+      - å°æ¹¾ A06
+      - å°æ¹¾ A07
+      - å°æ¹¾ A08
+      - å°æ¹¾ A09
+      - å°æ¹¾ A10
+      - å°æ¹¾ A11
+      - å°æ¹¾ A12
+      - å°æ¹¾ A13
+      - å°æ¹¾ A14
+      - å°æ¹¾ A15
+      - å°æ¹¾ A16
+      - å°æ¹¾ A17
+      - å°æ¹¾ A18
+      - å°æ¹¾ A19
+      - å°æ¹¾ A20
+      - å°æ¹¾ A21
+      - å°æ¹¾ A22
+      - å°æ¹¾ A23
+      - å°æ¹¾ A24
+      - å°æ¹¾ A25
+      - å°æ¹¾ A26
+      - å°æ¹¾ A27
+      - å°æ¹¾ A28
+      - å°æ¹¾ A29
+      - å°æ¹¾ A30
+      - å¾·å›½ A01 IEPLä¸“çº¿
+      - å¾·å›½ A02 IEPLä¸“çº¿
+      - å¾·å›½ A03 IEPLä¸“çº¿
+      - å¾·å›½ A04 IEPLä¸“çº¿
+      - å¾·å›½ A05 IEPLä¸“çº¿
+      - å¾·å›½ A06 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A01
+      - æ–°åŠ å¡ A02
+      - æ–°åŠ å¡ A03
+      - æ–°åŠ å¡ A04
+      - æ–°åŠ å¡ A05
+      - æ–°åŠ å¡ A06
+      - æ–°åŠ å¡ A07
+      - æ–°åŠ å¡ A08
+      - æ–°åŠ å¡ A09
+      - æ–°åŠ å¡ A10
+      - æ–°åŠ å¡ A11 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A12 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A13 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A14 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A15 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A16 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A17 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A18 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A19 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A20 IEPLä¸“çº¿
+      - æ—¥æœ¬ A01 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A02 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A03 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A04 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A05 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A06 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A07 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A08 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A09 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A10 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A11 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A12 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A13 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A14 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A15 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A16 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A17 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A18 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A19 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A20 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A21 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A22 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A23 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A24 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A25 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A26 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A27 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A28 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A29 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A30 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ³•å›½ A01 IEPLä¸“çº¿
+      - æ³•å›½ A02 IEPLä¸“çº¿
+      - æ³•å›½ A03 IEPLä¸“çº¿
+      - æ³•å›½ A04 IEPLä¸“çº¿
+      - æ³•å›½ A05 IEPLä¸“çº¿
+      - æ³•å›½ A06 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A01 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A02 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A03 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A04 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A05 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A06 IEPLä¸“çº¿
+      - ç¾å›½ A01 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A02 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A03 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A04 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A05 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A06 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A07 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A08 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A09 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A10 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A11 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A12 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A13 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A14 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A15 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A16 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A17 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A18 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A19 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A20 IEPLä¸“çº¿ Gemini
+      - è‹±å›½ A01 IEPLä¸“çº¿
+      - è‹±å›½ A02 IEPLä¸“çº¿
+      - è‹±å›½ A03 IEPLä¸“çº¿
+      - è‹±å›½ A04 IEPLä¸“çº¿
+      - è‹±å›½ A05 IEPLä¸“çº¿
+      - è‹±å›½ A06 IEPLä¸“çº¿
+      - éŸ©å›½ A01 IEPLä¸“çº¿
+      - éŸ©å›½ A02 IEPLä¸“çº¿
+      - éŸ©å›½ A03 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A04 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A05 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
+      - éŸ©å›½ A06 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
+      - é¦™æ¸¯ A01 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A02 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A03 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A04 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A05 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A06 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A07 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A08 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A09 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A10 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A11 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A12 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A13 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A14 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A15 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A16 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A17 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A18 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A19 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A20 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+  - name: ğŸ‡­ğŸ‡° HK
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Ïã¸Û A01 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A02 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A03 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A04 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A05 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A06 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A07 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A08 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A09 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A10 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A11 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A12 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A13 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A14 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A15 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A16 IEPL×¨Ïß ÒÆ¶¯ÓÅ»¯
-      - Ïã¸Û A17 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A18 IEPL×¨Ïß ÁªÍ¨ÓÅ»¯
-      - Ïã¸Û A19 IEPL×¨Ïß µçĞÅÓÅ»¯
-      - Ïã¸Û A20 IEPL×¨Ïß µçĞÅÓÅ»¯
-  - name: ?? TW
+      - é¦™æ¸¯ A01 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A02 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A03 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A04 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A05 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A06 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A07 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A08 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A09 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A10 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A11 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A12 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A13 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A14 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A15 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A16 IEPLä¸“çº¿ ç§»åŠ¨ä¼˜åŒ–
+      - é¦™æ¸¯ A17 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A18 IEPLä¸“çº¿ è”é€šä¼˜åŒ–
+      - é¦™æ¸¯ A19 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+      - é¦™æ¸¯ A20 IEPLä¸“çº¿ ç”µä¿¡ä¼˜åŒ–
+  - name: ğŸ‡¹ğŸ‡¼ TW
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Ì¨Íå A01
-      - Ì¨Íå A02
-      - Ì¨Íå A03
-      - Ì¨Íå A04
-      - Ì¨Íå A05
-      - Ì¨Íå A06
-      - Ì¨Íå A07
-      - Ì¨Íå A08
-      - Ì¨Íå A09
-      - Ì¨Íå A10
-      - Ì¨Íå A11
-      - Ì¨Íå A12
-      - Ì¨Íå A13
-      - Ì¨Íå A14
-      - Ì¨Íå A15
-      - Ì¨Íå A16
-      - Ì¨Íå A17
-      - Ì¨Íå A18
-      - Ì¨Íå A19
-      - Ì¨Íå A20
-      - Ì¨Íå A21
-      - Ì¨Íå A22
-      - Ì¨Íå A23
-      - Ì¨Íå A24
-      - Ì¨Íå A25
-      - Ì¨Íå A26
-      - Ì¨Íå A27
-      - Ì¨Íå A28
-      - Ì¨Íå A29
-      - Ì¨Íå A30
-  - name: ?? JP
+      - å°æ¹¾ A01
+      - å°æ¹¾ A02
+      - å°æ¹¾ A03
+      - å°æ¹¾ A04
+      - å°æ¹¾ A05
+      - å°æ¹¾ A06
+      - å°æ¹¾ A07
+      - å°æ¹¾ A08
+      - å°æ¹¾ A09
+      - å°æ¹¾ A10
+      - å°æ¹¾ A11
+      - å°æ¹¾ A12
+      - å°æ¹¾ A13
+      - å°æ¹¾ A14
+      - å°æ¹¾ A15
+      - å°æ¹¾ A16
+      - å°æ¹¾ A17
+      - å°æ¹¾ A18
+      - å°æ¹¾ A19
+      - å°æ¹¾ A20
+      - å°æ¹¾ A21
+      - å°æ¹¾ A22
+      - å°æ¹¾ A23
+      - å°æ¹¾ A24
+      - å°æ¹¾ A25
+      - å°æ¹¾ A26
+      - å°æ¹¾ A27
+      - å°æ¹¾ A28
+      - å°æ¹¾ A29
+      - å°æ¹¾ A30
+  - name: ğŸ‡¯ğŸ‡µ JP
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - IPv6 ÈÕ±¾ A01 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A02 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A03 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A04 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A05 ÒÆ¶¯¿í´øÓÅ»¯
-      - IPv6 ÈÕ±¾ A06 ÒÆ¶¯¿í´øÓÅ»¯
-      - ÈÕ±¾ A01 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A02 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A03 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A04 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A05 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A06 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A07 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A08 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A09 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A10 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A11 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A12 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A13 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A14 ÒÆ¶¯Â·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A15 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A16 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A17 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A18 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A19 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A20 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A21 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A22 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A23 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A24 ÒÆ¶¯ÌØµ÷Â·ÓÉ ³¬¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A25 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A26 µçĞÅ+ÁªÍ¨ BGPÂ·ÓÉ ¸ß´ø¿íÓÅ»¯
-      - ÈÕ±¾ A27 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A28 ÁªÍ¨+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A29 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-      - ÈÕ±¾ A30 µçĞÅ+ÒÆ¶¯ BGPÂ·ÓÉ ÑÓ³ÙÓÅ»¯
-  - name: ?? SG
+      - IPv6 æ—¥æœ¬ A01 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A02 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A03 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A04 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A05 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - IPv6 æ—¥æœ¬ A06 ç§»åŠ¨å®½å¸¦ä¼˜åŒ–
+      - æ—¥æœ¬ A01 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A02 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A03 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A04 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A05 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A06 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A07 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A08 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A09 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A10 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A11 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A12 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A13 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A14 ç§»åŠ¨è·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A15 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A16 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A17 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A18 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A19 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A20 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A21 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A22 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A23 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A24 ç§»åŠ¨ç‰¹è°ƒè·¯ç”± è¶…é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A25 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A26 ç”µä¿¡+è”é€š BGPè·¯ç”± é«˜å¸¦å®½ä¼˜åŒ–
+      - æ—¥æœ¬ A27 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A28 è”é€š+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A29 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+      - æ—¥æœ¬ A30 ç”µä¿¡+ç§»åŠ¨ BGPè·¯ç”± å»¶è¿Ÿä¼˜åŒ–
+  - name: ğŸ‡¸ğŸ‡¬ SG
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ĞÂ¼ÓÆÂ A01
-      - ĞÂ¼ÓÆÂ A02
-      - ĞÂ¼ÓÆÂ A03
-      - ĞÂ¼ÓÆÂ A04
-      - ĞÂ¼ÓÆÂ A05
-      - ĞÂ¼ÓÆÂ A06
-      - ĞÂ¼ÓÆÂ A07
-      - ĞÂ¼ÓÆÂ A08
-      - ĞÂ¼ÓÆÂ A09
-      - ĞÂ¼ÓÆÂ A10
-      - ĞÂ¼ÓÆÂ A11 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A12 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A13 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A14 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A15 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A16 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A17 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A18 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A19 IEPL×¨Ïß
-      - ĞÂ¼ÓÆÂ A20 IEPL×¨Ïß
-  - name: ?? US
+      - æ–°åŠ å¡ A01
+      - æ–°åŠ å¡ A02
+      - æ–°åŠ å¡ A03
+      - æ–°åŠ å¡ A04
+      - æ–°åŠ å¡ A05
+      - æ–°åŠ å¡ A06
+      - æ–°åŠ å¡ A07
+      - æ–°åŠ å¡ A08
+      - æ–°åŠ å¡ A09
+      - æ–°åŠ å¡ A10
+      - æ–°åŠ å¡ A11 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A12 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A13 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A14 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A15 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A16 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A17 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A18 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A19 IEPLä¸“çº¿
+      - æ–°åŠ å¡ A20 IEPLä¸“çº¿
+  - name: ğŸ‡ºğŸ‡¸ US
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ÃÀ¹ú A01 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A02 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A03 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A04 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A05 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A06 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A07 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A08 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A09 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A10 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A11 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A12 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A13 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A14 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A15 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A16 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A17 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A18 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A19 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A20 IEPL×¨Ïß Gemini
-  - name: ?? USÊÖ¶¯
+      - ç¾å›½ A01 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A02 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A03 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A04 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A05 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A06 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A07 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A08 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A09 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A10 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A11 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A12 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A13 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A14 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A15 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A16 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A17 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A18 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A19 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A20 IEPLä¸“çº¿ Gemini
+  - name: ğŸ‡ºğŸ‡¸ USæ‰‹åŠ¨
     type: select
     proxies:
-      - ÃÀ¹ú A01 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A02 YoutubeÎŞ¹ã¸æ ÁªÍ¨ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A03 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A04 YoutubeÎŞ¹ã¸æ ÒÆ¶¯ ¸ß´ø¿íÓÅ»¯
-      - ÃÀ¹ú A05 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A06 Gemini µçĞÅ+ÁªÍ¨ ¸ß´ø¿íµÍÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A07 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A08 Gemini ÁªÍ¨ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A09 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A10 Gemini ÒÆ¶¯ ÑÓ³ÙÓÅ»¯
-      - ÃÀ¹ú A11 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A12 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A13 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A14 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A15 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A16 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A17 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A18 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A19 IEPL×¨Ïß Gemini
-      - ÃÀ¹ú A20 IEPL×¨Ïß Gemini
-  - name: ? ÀäÃÅ½Úµã
+      - ç¾å›½ A01 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A02 Youtubeæ— å¹¿å‘Š è”é€š é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A03 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A04 Youtubeæ— å¹¿å‘Š ç§»åŠ¨ é«˜å¸¦å®½ä¼˜åŒ–
+      - ç¾å›½ A05 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A06 Gemini ç”µä¿¡+è”é€š é«˜å¸¦å®½ä½å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A07 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A08 Gemini è”é€š å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A09 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A10 Gemini ç§»åŠ¨ å»¶è¿Ÿä¼˜åŒ–
+      - ç¾å›½ A11 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A12 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A13 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A14 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A15 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A16 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A17 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A18 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A19 IEPLä¸“çº¿ Gemini
+      - ç¾å›½ A20 IEPLä¸“çº¿ Gemini
+  - name: ğŸ§Š å†·é—¨èŠ‚ç‚¹
     type: select
     proxies:
-      - ¼ÓÄÃ´ó A01
-      - ¼ÓÄÃ´ó A02
-      - ¼ÓÄÃ´ó A03
-      - ¼ÓÄÃ´ó A04
-      - ¼ÓÄÃ´ó A05
-      - ¼ÓÄÃ´ó A06
-      - Ó¡¶È A01 IEPL×¨Ïß
-      - Ó¡¶È A02 IEPL×¨Ïß
-      - Ó¡¶È A03 IEPL×¨Ïß
-      - Ó¡¶È A04 IEPL×¨Ïß
-      - Ó¡¶È A05 IEPL×¨Ïß
-      - Ó¡¶È A06 IEPL×¨Ïß
-      - µÂ¹ú A01 IEPL×¨Ïß
-      - µÂ¹ú A02 IEPL×¨Ïß
-      - µÂ¹ú A03 IEPL×¨Ïß
-      - µÂ¹ú A04 IEPL×¨Ïß
-      - µÂ¹ú A05 IEPL×¨Ïß
-      - µÂ¹ú A06 IEPL×¨Ïß
-      - ·¨¹ú A01 IEPL×¨Ïß
-      - ·¨¹ú A02 IEPL×¨Ïß
-      - ·¨¹ú A03 IEPL×¨Ïß
-      - ·¨¹ú A04 IEPL×¨Ïß
-      - ·¨¹ú A05 IEPL×¨Ïß
-      - ·¨¹ú A06 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A01 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A02 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A03 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A04 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A05 IEPL×¨Ïß
-      - °Ä´óÀûÑÇ A06 IEPL×¨Ïß
-      - Ó¢¹ú A01 IEPL×¨Ïß
-      - Ó¢¹ú A02 IEPL×¨Ïß
-      - Ó¢¹ú A03 IEPL×¨Ïß
-      - Ó¢¹ú A04 IEPL×¨Ïß
-      - Ó¢¹ú A05 IEPL×¨Ïß
-      - Ó¢¹ú A06 IEPL×¨Ïß
-      - º«¹ú A01 IEPL×¨Ïß
-      - º«¹ú A02 IEPL×¨Ïß
-      - º«¹ú A03 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A04 µçĞÅ+ÁªÍ¨ BGPµÍÑÓ³ÙÓÅ»¯
-      - º«¹ú A05 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
-      - º«¹ú A06 µçĞÅ+ÁªÍ¨ BGP¸ß´ø¿íÓÅ»¯
+      - åŠ æ‹¿å¤§ A01
+      - åŠ æ‹¿å¤§ A02
+      - åŠ æ‹¿å¤§ A03
+      - åŠ æ‹¿å¤§ A04
+      - åŠ æ‹¿å¤§ A05
+      - åŠ æ‹¿å¤§ A06
+      - å°åº¦ A01 IEPLä¸“çº¿
+      - å°åº¦ A02 IEPLä¸“çº¿
+      - å°åº¦ A03 IEPLä¸“çº¿
+      - å°åº¦ A04 IEPLä¸“çº¿
+      - å°åº¦ A05 IEPLä¸“çº¿
+      - å°åº¦ A06 IEPLä¸“çº¿
+      - å¾·å›½ A01 IEPLä¸“çº¿
+      - å¾·å›½ A02 IEPLä¸“çº¿
+      - å¾·å›½ A03 IEPLä¸“çº¿
+      - å¾·å›½ A04 IEPLä¸“çº¿
+      - å¾·å›½ A05 IEPLä¸“çº¿
+      - å¾·å›½ A06 IEPLä¸“çº¿
+      - æ³•å›½ A01 IEPLä¸“çº¿
+      - æ³•å›½ A02 IEPLä¸“çº¿
+      - æ³•å›½ A03 IEPLä¸“çº¿
+      - æ³•å›½ A04 IEPLä¸“çº¿
+      - æ³•å›½ A05 IEPLä¸“çº¿
+      - æ³•å›½ A06 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A01 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A02 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A03 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A04 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A05 IEPLä¸“çº¿
+      - æ¾³å¤§åˆ©äºš A06 IEPLä¸“çº¿
+      - è‹±å›½ A01 IEPLä¸“çº¿
+      - è‹±å›½ A02 IEPLä¸“çº¿
+      - è‹±å›½ A03 IEPLä¸“çº¿
+      - è‹±å›½ A04 IEPLä¸“çº¿
+      - è‹±å›½ A05 IEPLä¸“çº¿
+      - è‹±å›½ A06 IEPLä¸“çº¿
+      - éŸ©å›½ A01 IEPLä¸“çº¿
+      - éŸ©å›½ A02 IEPLä¸“çº¿
+      - éŸ©å›½ A03 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A04 ç”µä¿¡+è”é€š BGPä½å»¶è¿Ÿä¼˜åŒ–
+      - éŸ©å›½ A05 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
+      - éŸ©å›½ A06 ç”µä¿¡+è”é€š BGPé«˜å¸¦å®½ä¼˜åŒ–
 rules:
-  - GEOSITE,adobe,? Adobe
-  - GEOIP,adobe,? Adobe,no-resolve
+  - GEOSITE,adobe,ğŸŸ¥ Adobe
+  - GEOIP,adobe,ğŸŸ¥ Adobe,no-resolve
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT,no-resolve
   - DOMAIN,*m-team*,DIRECT
@@ -1126,6 +1126,7 @@ rules:
   - DOMAIN-SUFFIX,bjtzeduyun.com,DIRECT
   - DOMAIN-SUFFIX,bochaai.com,DIRECT
   - DOMAIN-SUFFIX,bochk.com,DIRECT
+  - DOMAIN-SUFFIX,boxim.online,DIRECT
   - DOMAIN-SUFFIX,boyuemobile.com,DIRECT
   - DOMAIN-SUFFIX,bsbsb.top,DIRECT
   - DOMAIN-SUFFIX,bunny.net,DIRECT
@@ -1142,6 +1143,7 @@ rules:
   - DOMAIN-SUFFIX,chenyuxia.com,DIRECT
   - DOMAIN-SUFFIX,cheriexsky.love,DIRECT
   - DOMAIN-SUFFIX,cheshire.top,DIRECT
+  - DOMAIN-SUFFIX,chessease.net,DIRECT
   - DOMAIN-SUFFIX,chii.in,DIRECT
   - DOMAIN-SUFFIX,chinatle.com,DIRECT
   - DOMAIN-SUFFIX,chujingapp.com,DIRECT
@@ -1398,6 +1400,7 @@ rules:
   - DOMAIN-SUFFIX,ok321.top,DIRECT
   - DOMAIN-SUFFIX,onebuygz.com,DIRECT
   - DOMAIN-SUFFIX,onetools.top,DIRECT
+  - DOMAIN-SUFFIX,openkylin.top,DIRECT
   - DOMAIN-SUFFIX,opentrust.net,DIRECT
   - DOMAIN-SUFFIX,osbdf.com,DIRECT
   - DOMAIN-SUFFIX,ottai.com,DIRECT
@@ -1476,6 +1479,7 @@ rules:
   - DOMAIN-SUFFIX,sxlljm.com,DIRECT
   - DOMAIN-SUFFIX,tailgdd.com,DIRECT
   - DOMAIN-SUFFIX,tailscale.com,DIRECT
+  - DOMAIN-SUFFIX,talk-cloud.net,DIRECT
   - DOMAIN-SUFFIX,tangguobaohe.com,DIRECT
   - DOMAIN-SUFFIX,tclai.top,DIRECT
   - DOMAIN-SUFFIX,tcp.mk,DIRECT
@@ -1520,6 +1524,7 @@ rules:
   - DOMAIN-SUFFIX,wenyi188.com,DIRECT
   - DOMAIN-SUFFIX,weshape3d.com,DIRECT
   - DOMAIN-SUFFIX,wewillpro.com,DIRECT
+  - DOMAIN-SUFFIX,wildfirechat.net,DIRECT
   - DOMAIN-SUFFIX,wjx.top,DIRECT
   - DOMAIN-SUFFIX,wlcdn88.com,DIRECT
   - DOMAIN-SUFFIX,wologic.net,DIRECT
@@ -1535,6 +1540,7 @@ rules:
   - DOMAIN-SUFFIX,xdtool.com,DIRECT
   - DOMAIN-SUFFIX,xesabc.com,DIRECT
   - DOMAIN-SUFFIX,xfltd.org,DIRECT
+  - DOMAIN-SUFFIX,xgzb.top,DIRECT
   - DOMAIN-SUFFIX,xiankabao.com,DIRECT
   - DOMAIN-SUFFIX,xiaobeiyangji.com,DIRECT
   - DOMAIN-SUFFIX,xiaochuanyun.com,DIRECT
@@ -1598,68 +1604,72 @@ rules:
   - IP-CIDR,5.5.5.5/32,DIRECT,no-resolve
   - IP-CIDR,98.126.27.164/32,DIRECT,no-resolve
   - SRC-PORT,41641,DIRECT
-  - DOMAIN-SUFFIX,7pzzv.us,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,arduino.cc,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,clientservices.googleapis.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,dmhy.org,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,googleapis.cn,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,hoyolab.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,hoyoverse.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,ip.sb,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,ipify.org,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,mtalk.google.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,onedrive.live.com,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,platformio.org,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,services.googleapis.cn,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,stun.playstation.net,? ÊÖ¶¯Ñ¡Ôñ
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,? ÊÖ¶¯Ñ¡Ôñ
+  - DOMAIN-SUFFIX,7pzzv.us,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,arduino.cc,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,clientservices.googleapis.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,cloudsync-prod.s3.us-east-1.amazonaws.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,dmhy.org,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,googleapis.cn,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,hoyolab.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,hoyoverse.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,ip.sb,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,ipify.org,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,mtalk.google.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,onedrive.live.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,platformio.org,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,services.googleapis.cn,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,stun.playstation.net,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
   - GEOSITE,cn,DIRECT
   - GEOIP,cn,DIRECT,no-resolve
   - GEOSITE,google-cn,DIRECT
   - GEOSITE,category-games@cn,DIRECT
   - GEOSITE,category-game-platforms-download,DIRECT
   - GEOSITE,category-public-tracker,DIRECT
-  - GEOSITE,Notion,? Notion
-  - GEOIP,Notion,? Notion,no-resolve
-  - GEOSITE,telegram,? Telegram
-  - GEOIP,telegram,? Telegram,no-resolve
-  - GEOSITE,openai,? ChatGPT
-  - GEOSITE,category-ai-!cn,? AI
-  - GEOSITE,apple,? Apple
-  - GEOSITE,youtube,? YouTube
-  - GEOSITE,netflix,? Netflix
-  - GEOIP,netflix,? Netflix,no-resolve
-  - GEOSITE,tiktok,? TikTok
-  - GEOIP,tiktok,? TikTok,no-resolve
-  - GEOSITE,instagram,? Instagram
-  - GEOSITE,twitter,? X
-  - GEOSITE,github,? GitHub
-  - GEOIP,github,? GitHub,no-resolve
-  - GEOSITE,category-speedtest,? ²âËÙ¹¤¾ß
-  - DOMAIN-SUFFIX,ipleak.net,? dns¼ì²â
-  - DOMAIN-KEYWORD,browserleaks,? dns¼ì²â
-  - DOMAIN-KEYWORD,ip.skk,? dns¼ì²â
-  - DOMAIN-KEYWORD,browserscan,? dns¼ì²â
-  - GEOSITE,steam,? Steam
-  - GEOSITE,okx,? OKX
-  - GEOSITE,binance,? Binance
-  - GEOSITE,bybit,? Bybit
-  - GEOSITE,category-communication,? ¼´Ê±Í¨Ñ¶
-  - DOMAIN-SUFFIX,hero-sms.com,? ¼´Ê±Í¨Ñ¶
-  - GEOSITE,category-social-media-!cn,? Éç½»Ã½Ìå
-  - DOMAIN-KEYWORD,missav,? ¸ÉºÃÊÂ
-  - DOMAIN-KEYWORD,hanime1,? ¸ÉºÃÊÂ
-  - DOMAIN-KEYWORD,hanimeone,? ¸ÉºÃÊÂ
-  - DOMAIN-KEYWORD,surrit.com,? ¸ÉºÃÊÂ
-  - GEOSITE,cloudflare,?? cloudflare
-  - GEOIP,cloudflare,?? cloudflare,no-resolve
-  - GEOSITE,google,? Google
-  - GEOIP,google,? Google,no-resolve
-  - GEOSITE,microsoft,? Microsoft
-  - GEOIP,microsoft,? Microsoft,no-resolve
-  - GEOSITE,gfw,? ÊÖ¶¯Ñ¡Ôñ
-  - DST-PORT,1-79,? ·Ç±ê¶Ë¿Ú
-  - DST-PORT,81-442,? ·Ç±ê¶Ë¿Ú
-  - DST-PORT,444-65535,? ·Ç±ê¶Ë¿Ú
-  - MATCH,? Â©ÍøÖ®Óã
+  - DOMAIN-KEYWORD,tracker,DIRECT
+  - DOMAIN-KEYWORD,announce,DIRECT
+  - DOMAIN-KEYWORD,btfile,DIRECT
+  - DST-PORT,6969,DIRECT
+  - GEOSITE,Notion,ğŸ“¦ Notion
+  - GEOIP,Notion,ğŸ“¦ Notion,no-resolve
+  - GEOSITE,telegram,ğŸ“¨ Telegram
+  - GEOIP,telegram,ğŸ“¨ Telegram,no-resolve
+  - GEOSITE,openai,ğŸ¤– ChatGPT
+  - GEOSITE,category-ai-!cn,ğŸ§  AI
+  - GEOSITE,apple,ğŸ Apple
+  - GEOSITE,youtube,ğŸ¬ YouTube
+  - GEOSITE,netflix,ğŸ¥ Netflix
+  - GEOIP,netflix,ğŸ¥ Netflix,no-resolve
+  - GEOSITE,tiktok,ğŸµ TikTok
+  - GEOIP,tiktok,ğŸµ TikTok,no-resolve
+  - GEOSITE,instagram,ğŸ“¸ Instagram
+  - GEOSITE,twitter,ğŸ¦ X
+  - GEOSITE,github,ğŸ›  GitHub
+  - GEOIP,github,ğŸ›  GitHub,no-resolve
+  - GEOSITE,category-speedtest,ğŸš æµ‹é€Ÿå·¥å…·
+  - DOMAIN-SUFFIX,ipleak.net,ğŸ§¬ dnsæ£€æµ‹
+  - DOMAIN-KEYWORD,browserleaks,ğŸ§¬ dnsæ£€æµ‹
+  - DOMAIN-KEYWORD,ip.skk,ğŸ§¬ dnsæ£€æµ‹
+  - DOMAIN-KEYWORD,browserscan,ğŸ§¬ dnsæ£€æµ‹
+  - GEOSITE,steam,ğŸ® Steam
+  - GEOSITE,okx,ğŸŸ¦ OKX
+  - GEOSITE,binance,ğŸŸ¨ Binance
+  - GEOSITE,bybit,ğŸŸª Bybit
+  - GEOSITE,category-communication,ğŸ“ å³æ—¶é€šè®¯
+  - DOMAIN-SUFFIX,hero-sms.com,ğŸ“ å³æ—¶é€šè®¯
+  - GEOSITE,category-social-media-!cn,ğŸ’¬ ç¤¾äº¤åª’ä½“
+  - DOMAIN-KEYWORD,missav,ğŸª å¹²å¥½äº‹
+  - DOMAIN-KEYWORD,hanime1,ğŸª å¹²å¥½äº‹
+  - DOMAIN-KEYWORD,hanimeone,ğŸª å¹²å¥½äº‹
+  - DOMAIN-KEYWORD,surrit.com,ğŸª å¹²å¥½äº‹
+  - GEOSITE,cloudflare,â˜ï¸ cloudflare
+  - GEOIP,cloudflare,â˜ï¸ cloudflare,no-resolve
+  - GEOSITE,google,ğŸ” Google
+  - GEOIP,google,ğŸ” Google,no-resolve
+  - GEOSITE,microsoft,ğŸªŸ Microsoft
+  - GEOIP,microsoft,ğŸªŸ Microsoft,no-resolve
+  - GEOSITE,gfw,ğŸš€ æ‰‹åŠ¨é€‰æ‹©
+  - DST-PORT,1-79,ğŸ”€ éæ ‡ç«¯å£
+  - DST-PORT,81-442,ğŸ”€ éæ ‡ç«¯å£
+  - DST-PORT,444-65535,ğŸ”€ éæ ‡ç«¯å£
+  - MATCH,ğŸŸ æ¼ç½‘ä¹‹é±¼
