@@ -84,8 +84,8 @@ proxies:
   - {name: 日本 A04 移动路由 高带宽优化, server: jp04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A05 电信+联通 BGP路由 高带宽优化, server: jp05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A06 电信+联通 BGP路由 高带宽优化, server: jp06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A07 联通+移动 BGP路由 延迟优化, server: jp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A08 联通+移动 BGP路由 延迟优化, server: jp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A07 移动路由优化, server: jp07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A08 移动路由优化, server: jp08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A09 电信+移动 BGP路由 延迟优化, server: jp09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A10 电信+移动 BGP路由 延迟优化, server: jp10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A11 电信+联通 BGP路由 高带宽优化, server: jp11.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
@@ -94,8 +94,8 @@ proxies:
   - {name: 日本 A14 移动路由 高带宽优化, server: jp14.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A15 电信+联通 BGP路由 高带宽优化, server: jp15.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A16 电信+联通 BGP路由 高带宽优化, server: jp16.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A17 联通+移动 BGP路由 延迟优化, server: jp17.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A18 联通+移动 BGP路由 延迟优化, server: jp18.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A17 移动延迟优化路由, server: jp17.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A18 移动延迟优化路由, server: jp18.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A19 电信+移动 BGP路由 延迟优化, server: jp19.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A20 电信+移动 BGP路由 延迟优化, server: jp20.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A21 电信+联通 BGP路由 高带宽优化, server: hr01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
@@ -104,8 +104,8 @@ proxies:
   - {name: 日本 A24 移动特调路由 超高带宽优化, server: hr04.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A25 电信+联通 BGP路由 高带宽优化, server: hr05.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A26 电信+联通 BGP路由 高带宽优化, server: hr06.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A27 联通+移动 BGP路由 延迟优化, server: hr07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 日本 A28 联通+移动 BGP路由 延迟优化, server: hr08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A27 移动延迟优化路由, server: hr07.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 日本 A28 移动延迟优化路由, server: hr08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A29 电信+移动 BGP路由 延迟优化, server: hr09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 日本 A30 电信+移动 BGP路由 延迟优化, server: hr10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 法国 A01 IEPL专线, server: fr01.fjk.wtf, port: 1500, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
@@ -124,22 +124,12 @@ proxies:
   - {name: 美国 A02 Youtube无广告 联通 高带宽优化, server: us02.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A03 Youtube无广告 移动 高带宽优化, server: us03.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A04 Youtube无广告 移动 高带宽优化, server: us04.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A05 Gemini 电信+联通 高带宽低延迟优化, server: us05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A06 Gemini 电信+联通 高带宽低延迟优化, server: us06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 美国 A05 Gemini 电信优化路由, server: us05.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 美国 A06 Gemini 电信优化路由, server: us06.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A07 Gemini 联通 延迟优化, server: us07.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A08 Gemini 联通 延迟优化, server: us08.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A09 Gemini 移动 延迟优化, server: us09.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 美国 A10 Gemini 移动 延迟优化, server: us10.forentier.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A11 IEPL专线 Gemini, server: us11.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A12 IEPL专线 Gemini, server: us12.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A13 IEPL专线 Gemini, server: us13.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A14 IEPL专线 Gemini, server: us14.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A15 IEPL专线 Gemini, server: us15.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A16 IEPL专线 Gemini, server: us16.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A17 IEPL专线 Gemini, server: us17.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A18 IEPL专线 Gemini, server: us18.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A19 IEPL专线 Gemini, server: us19.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
-  - {name: 美国 A20 IEPL专线 Gemini, server: us20.forentier.org, port: 1700, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 英国 A01 IEPL专线, server: uk01.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 英国 A02 IEPL专线, server: uk02.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 英国 A03 IEPL专线, server: uk03.fjk.wtf, port: 1300, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
@@ -172,6 +162,8 @@ proxies:
   - {name: 香港 A18 IEPL专线 联通优化, server: pccw08.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 香港 A19 IEPL专线 电信优化, server: pccw09.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
   - {name: 香港 A20 IEPL专线 电信优化, server: pccw10.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.microsoft.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 香港 A01 特殊连接优化 10x流量计费, server: bgp01.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
+  - {name: 香港 A02 特殊连接优化 10x流量计费, server: bgp02.fualta.org, port: 443, type: vless, uuid: 5cc992bc-ffb9-3b17-adb9-8ff8f2040090, tls: true, flow: xtls-rprx-vision, skip-cert-verify: true, servername: www.apple.com, client-fingerprint: chrome, reality-opts: {public-key: Vc8ycAgKqfRvtXjvGP0ry_U91o5wgrQlqOhHq72HYRs, short-id: 1bc2c1ef1c}, udp: true}
 proxy-groups:
   - name: 📦 Notion
     type: select
@@ -551,8 +543,8 @@ proxy-groups:
       - 日本 A04 移动路由 高带宽优化
       - 日本 A05 电信+联通 BGP路由 高带宽优化
       - 日本 A06 电信+联通 BGP路由 高带宽优化
-      - 日本 A07 联通+移动 BGP路由 延迟优化
-      - 日本 A08 联通+移动 BGP路由 延迟优化
+      - 日本 A07 移动路由优化
+      - 日本 A08 移动路由优化
       - 日本 A09 电信+移动 BGP路由 延迟优化
       - 日本 A10 电信+移动 BGP路由 延迟优化
       - 日本 A11 电信+联通 BGP路由 高带宽优化
@@ -561,8 +553,8 @@ proxy-groups:
       - 日本 A14 移动路由 高带宽优化
       - 日本 A15 电信+联通 BGP路由 高带宽优化
       - 日本 A16 电信+联通 BGP路由 高带宽优化
-      - 日本 A17 联通+移动 BGP路由 延迟优化
-      - 日本 A18 联通+移动 BGP路由 延迟优化
+      - 日本 A17 移动延迟优化路由
+      - 日本 A18 移动延迟优化路由
       - 日本 A19 电信+移动 BGP路由 延迟优化
       - 日本 A20 电信+移动 BGP路由 延迟优化
       - 日本 A21 电信+联通 BGP路由 高带宽优化
@@ -571,8 +563,8 @@ proxy-groups:
       - 日本 A24 移动特调路由 超高带宽优化
       - 日本 A25 电信+联通 BGP路由 高带宽优化
       - 日本 A26 电信+联通 BGP路由 高带宽优化
-      - 日本 A27 联通+移动 BGP路由 延迟优化
-      - 日本 A28 联通+移动 BGP路由 延迟优化
+      - 日本 A27 移动延迟优化路由
+      - 日本 A28 移动延迟优化路由
       - 日本 A29 电信+移动 BGP路由 延迟优化
       - 日本 A30 电信+移动 BGP路由 延迟优化
       - 法国 A01 IEPL专线
@@ -591,22 +583,12 @@ proxy-groups:
       - 美国 A02 Youtube无广告 联通 高带宽优化
       - 美国 A03 Youtube无广告 移动 高带宽优化
       - 美国 A04 Youtube无广告 移动 高带宽优化
-      - 美国 A05 Gemini 电信+联通 高带宽低延迟优化
-      - 美国 A06 Gemini 电信+联通 高带宽低延迟优化
+      - 美国 A05 Gemini 电信优化路由
+      - 美国 A06 Gemini 电信优化路由
       - 美国 A07 Gemini 联通 延迟优化
       - 美国 A08 Gemini 联通 延迟优化
       - 美国 A09 Gemini 移动 延迟优化
       - 美国 A10 Gemini 移动 延迟优化
-      - 美国 A11 IEPL专线 Gemini
-      - 美国 A12 IEPL专线 Gemini
-      - 美国 A13 IEPL专线 Gemini
-      - 美国 A14 IEPL专线 Gemini
-      - 美国 A15 IEPL专线 Gemini
-      - 美国 A16 IEPL专线 Gemini
-      - 美国 A17 IEPL专线 Gemini
-      - 美国 A18 IEPL专线 Gemini
-      - 美国 A19 IEPL专线 Gemini
-      - 美国 A20 IEPL专线 Gemini
       - 英国 A01 IEPL专线
       - 英国 A02 IEPL专线
       - 英国 A03 IEPL专线
@@ -639,6 +621,8 @@ proxy-groups:
       - 香港 A18 IEPL专线 联通优化
       - 香港 A19 IEPL专线 电信优化
       - 香港 A20 IEPL专线 电信优化
+      - 香港 A01 特殊连接优化 10x流量计费
+      - 香港 A02 特殊连接优化 10x流量计费
   - name: ♻️ 自动选择
     type: url-test
     url: https://www.gstatic.com/generate_204
@@ -725,8 +709,8 @@ proxy-groups:
       - 日本 A04 移动路由 高带宽优化
       - 日本 A05 电信+联通 BGP路由 高带宽优化
       - 日本 A06 电信+联通 BGP路由 高带宽优化
-      - 日本 A07 联通+移动 BGP路由 延迟优化
-      - 日本 A08 联通+移动 BGP路由 延迟优化
+      - 日本 A07 移动路由优化
+      - 日本 A08 移动路由优化
       - 日本 A09 电信+移动 BGP路由 延迟优化
       - 日本 A10 电信+移动 BGP路由 延迟优化
       - 日本 A11 电信+联通 BGP路由 高带宽优化
@@ -735,8 +719,8 @@ proxy-groups:
       - 日本 A14 移动路由 高带宽优化
       - 日本 A15 电信+联通 BGP路由 高带宽优化
       - 日本 A16 电信+联通 BGP路由 高带宽优化
-      - 日本 A17 联通+移动 BGP路由 延迟优化
-      - 日本 A18 联通+移动 BGP路由 延迟优化
+      - 日本 A17 移动延迟优化路由
+      - 日本 A18 移动延迟优化路由
       - 日本 A19 电信+移动 BGP路由 延迟优化
       - 日本 A20 电信+移动 BGP路由 延迟优化
       - 日本 A21 电信+联通 BGP路由 高带宽优化
@@ -745,8 +729,8 @@ proxy-groups:
       - 日本 A24 移动特调路由 超高带宽优化
       - 日本 A25 电信+联通 BGP路由 高带宽优化
       - 日本 A26 电信+联通 BGP路由 高带宽优化
-      - 日本 A27 联通+移动 BGP路由 延迟优化
-      - 日本 A28 联通+移动 BGP路由 延迟优化
+      - 日本 A27 移动延迟优化路由
+      - 日本 A28 移动延迟优化路由
       - 日本 A29 电信+移动 BGP路由 延迟优化
       - 日本 A30 电信+移动 BGP路由 延迟优化
       - 法国 A01 IEPL专线
@@ -765,22 +749,12 @@ proxy-groups:
       - 美国 A02 Youtube无广告 联通 高带宽优化
       - 美国 A03 Youtube无广告 移动 高带宽优化
       - 美国 A04 Youtube无广告 移动 高带宽优化
-      - 美国 A05 Gemini 电信+联通 高带宽低延迟优化
-      - 美国 A06 Gemini 电信+联通 高带宽低延迟优化
+      - 美国 A05 Gemini 电信优化路由
+      - 美国 A06 Gemini 电信优化路由
       - 美国 A07 Gemini 联通 延迟优化
       - 美国 A08 Gemini 联通 延迟优化
       - 美国 A09 Gemini 移动 延迟优化
       - 美国 A10 Gemini 移动 延迟优化
-      - 美国 A11 IEPL专线 Gemini
-      - 美国 A12 IEPL专线 Gemini
-      - 美国 A13 IEPL专线 Gemini
-      - 美国 A14 IEPL专线 Gemini
-      - 美国 A15 IEPL专线 Gemini
-      - 美国 A16 IEPL专线 Gemini
-      - 美国 A17 IEPL专线 Gemini
-      - 美国 A18 IEPL专线 Gemini
-      - 美国 A19 IEPL专线 Gemini
-      - 美国 A20 IEPL专线 Gemini
       - 英国 A01 IEPL专线
       - 英国 A02 IEPL专线
       - 英国 A03 IEPL专线
@@ -813,6 +787,8 @@ proxy-groups:
       - 香港 A18 IEPL专线 联通优化
       - 香港 A19 IEPL专线 电信优化
       - 香港 A20 IEPL专线 电信优化
+      - 香港 A01 特殊连接优化 10x流量计费
+      - 香港 A02 特殊连接优化 10x流量计费
   - name: 🇭🇰 HK
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -839,6 +815,8 @@ proxy-groups:
       - 香港 A18 IEPL专线 联通优化
       - 香港 A19 IEPL专线 电信优化
       - 香港 A20 IEPL专线 电信优化
+      - 香港 A01 特殊连接优化 10x流量计费
+      - 香港 A02 特殊连接优化 10x流量计费
   - name: 🇹🇼 TW
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -893,8 +871,8 @@ proxy-groups:
       - 日本 A04 移动路由 高带宽优化
       - 日本 A05 电信+联通 BGP路由 高带宽优化
       - 日本 A06 电信+联通 BGP路由 高带宽优化
-      - 日本 A07 联通+移动 BGP路由 延迟优化
-      - 日本 A08 联通+移动 BGP路由 延迟优化
+      - 日本 A07 移动路由优化
+      - 日本 A08 移动路由优化
       - 日本 A09 电信+移动 BGP路由 延迟优化
       - 日本 A10 电信+移动 BGP路由 延迟优化
       - 日本 A11 电信+联通 BGP路由 高带宽优化
@@ -903,8 +881,8 @@ proxy-groups:
       - 日本 A14 移动路由 高带宽优化
       - 日本 A15 电信+联通 BGP路由 高带宽优化
       - 日本 A16 电信+联通 BGP路由 高带宽优化
-      - 日本 A17 联通+移动 BGP路由 延迟优化
-      - 日本 A18 联通+移动 BGP路由 延迟优化
+      - 日本 A17 移动延迟优化路由
+      - 日本 A18 移动延迟优化路由
       - 日本 A19 电信+移动 BGP路由 延迟优化
       - 日本 A20 电信+移动 BGP路由 延迟优化
       - 日本 A21 电信+联通 BGP路由 高带宽优化
@@ -913,8 +891,8 @@ proxy-groups:
       - 日本 A24 移动特调路由 超高带宽优化
       - 日本 A25 电信+联通 BGP路由 高带宽优化
       - 日本 A26 电信+联通 BGP路由 高带宽优化
-      - 日本 A27 联通+移动 BGP路由 延迟优化
-      - 日本 A28 联通+移动 BGP路由 延迟优化
+      - 日本 A27 移动延迟优化路由
+      - 日本 A28 移动延迟优化路由
       - 日本 A29 电信+移动 BGP路由 延迟优化
       - 日本 A30 电信+移动 BGP路由 延迟优化
   - name: 🇸🇬 SG
@@ -953,22 +931,12 @@ proxy-groups:
       - 美国 A02 Youtube无广告 联通 高带宽优化
       - 美国 A03 Youtube无广告 移动 高带宽优化
       - 美国 A04 Youtube无广告 移动 高带宽优化
-      - 美国 A05 Gemini 电信+联通 高带宽低延迟优化
-      - 美国 A06 Gemini 电信+联通 高带宽低延迟优化
+      - 美国 A05 Gemini 电信优化路由
+      - 美国 A06 Gemini 电信优化路由
       - 美国 A07 Gemini 联通 延迟优化
       - 美国 A08 Gemini 联通 延迟优化
       - 美国 A09 Gemini 移动 延迟优化
       - 美国 A10 Gemini 移动 延迟优化
-      - 美国 A11 IEPL专线 Gemini
-      - 美国 A12 IEPL专线 Gemini
-      - 美国 A13 IEPL专线 Gemini
-      - 美国 A14 IEPL专线 Gemini
-      - 美国 A15 IEPL专线 Gemini
-      - 美国 A16 IEPL专线 Gemini
-      - 美国 A17 IEPL专线 Gemini
-      - 美国 A18 IEPL专线 Gemini
-      - 美国 A19 IEPL专线 Gemini
-      - 美国 A20 IEPL专线 Gemini
   - name: 🇺🇸 US手动
     type: select
     proxies:
@@ -976,22 +944,12 @@ proxy-groups:
       - 美国 A02 Youtube无广告 联通 高带宽优化
       - 美国 A03 Youtube无广告 移动 高带宽优化
       - 美国 A04 Youtube无广告 移动 高带宽优化
-      - 美国 A05 Gemini 电信+联通 高带宽低延迟优化
-      - 美国 A06 Gemini 电信+联通 高带宽低延迟优化
+      - 美国 A05 Gemini 电信优化路由
+      - 美国 A06 Gemini 电信优化路由
       - 美国 A07 Gemini 联通 延迟优化
       - 美国 A08 Gemini 联通 延迟优化
       - 美国 A09 Gemini 移动 延迟优化
       - 美国 A10 Gemini 移动 延迟优化
-      - 美国 A11 IEPL专线 Gemini
-      - 美国 A12 IEPL专线 Gemini
-      - 美国 A13 IEPL专线 Gemini
-      - 美国 A14 IEPL专线 Gemini
-      - 美国 A15 IEPL专线 Gemini
-      - 美国 A16 IEPL专线 Gemini
-      - 美国 A17 IEPL专线 Gemini
-      - 美国 A18 IEPL专线 Gemini
-      - 美国 A19 IEPL专线 Gemini
-      - 美国 A20 IEPL专线 Gemini
   - name: 🧊 冷门节点
     type: select
     proxies:
@@ -1070,6 +1028,7 @@ rules:
   - DOMAIN-SUFFIX,52muban.com,DIRECT
   - DOMAIN-SUFFIX,55555.ink,DIRECT
   - DOMAIN-SUFFIX,657192.com,DIRECT
+  - DOMAIN-SUFFIX,66990000.xyz,DIRECT
   - DOMAIN-SUFFIX,6v520.net,DIRECT
   - DOMAIN-SUFFIX,737698.xyz,DIRECT
   - DOMAIN-SUFFIX,77shuku.org,DIRECT
@@ -1079,6 +1038,7 @@ rules:
   - DOMAIN-SUFFIX,8kc.top,DIRECT
   - DOMAIN-SUFFIX,900cha.com,DIRECT
   - DOMAIN-SUFFIX,91shenfan.com,DIRECT
+  - DOMAIN-SUFFIX,97973399.com,DIRECT
   - DOMAIN-SUFFIX,985hezi.com,DIRECT
   - DOMAIN-SUFFIX,998tool.com,DIRECT
   - DOMAIN-SUFFIX,a0d.top,DIRECT
@@ -1102,6 +1062,7 @@ rules:
   - DOMAIN-SUFFIX,antping.com,DIRECT
   - DOMAIN-SUFFIX,anycubic.com,DIRECT
   - DOMAIN-SUFFIX,anyrouter.top,DIRECT
+  - DOMAIN-SUFFIX,anytocopy.com,DIRECT
   - DOMAIN-SUFFIX,api.myip.com,DIRECT
   - DOMAIN-SUFFIX,apm-log-upload-os.hoyoverse.com,DIRECT
   - DOMAIN-SUFFIX,aqtwwx.net,DIRECT
@@ -1131,9 +1092,11 @@ rules:
   - DOMAIN-SUFFIX,bsbsb.top,DIRECT
   - DOMAIN-SUFFIX,bunny.net,DIRECT
   - DOMAIN-SUFFIX,canghaiip.com,DIRECT
+  - DOMAIN-SUFFIX,cangjie-lang.net,DIRECT
   - DOMAIN-SUFFIX,cc.cd,DIRECT
   - DOMAIN-SUFFIX,cdn.ist,DIRECT
   - DOMAIN-SUFFIX,centbrowser.net,DIRECT
+  - DOMAIN-SUFFIX,cftunnel.com,DIRECT
   - DOMAIN-SUFFIX,cg3da.com,DIRECT
   - DOMAIN-SUFFIX,cgicop.com,DIRECT
   - DOMAIN-SUFFIX,chaxunjiao.com,DIRECT
@@ -1150,6 +1113,7 @@ rules:
   - DOMAIN-SUFFIX,chushi.cool,DIRECT
   - DOMAIN-SUFFIX,clivia.fun,DIRECT
   - DOMAIN-SUFFIX,cmbc.run,DIRECT
+  - DOMAIN-SUFFIX,cmhk.com,DIRECT
   - DOMAIN-SUFFIX,cn-music.mefun.vip,DIRECT
   - DOMAIN-SUFFIX,cnb.space,DIRECT
   - DOMAIN-SUFFIX,cocav.com,DIRECT
@@ -1162,6 +1126,7 @@ rules:
   - DOMAIN-SUFFIX,d4ctech.com,DIRECT
   - DOMAIN-SUFFIX,dadateach.com,DIRECT
   - DOMAIN-SUFFIX,dahai96.com,DIRECT
+  - DOMAIN-SUFFIX,daocloud.vip,DIRECT
   - DOMAIN-SUFFIX,day.app,DIRECT
   - DOMAIN-SUFFIX,dayilive.com,DIRECT
   - DOMAIN-SUFFIX,dcgstd.com,DIRECT
@@ -1187,6 +1152,7 @@ rules:
   - DOMAIN-SUFFIX,easytier.top,DIRECT
   - DOMAIN-SUFFIX,easytomessage.com,DIRECT
   - DOMAIN-SUFFIX,einfo-tech.com,DIRECT
+  - DOMAIN-SUFFIX,emby.yun,DIRECT
   - DOMAIN-SUFFIX,englibrary.com,DIRECT
   - DOMAIN-SUFFIX,enyugame.net,DIRECT
   - DOMAIN-SUFFIX,epark.cc,DIRECT
@@ -1210,6 +1176,7 @@ rules:
   - DOMAIN-SUFFIX,fsytss.com,DIRECT
   - DOMAIN-SUFFIX,ft07.com,DIRECT
   - DOMAIN-SUFFIX,functorz.com,DIRECT
+  - DOMAIN-SUFFIX,fuyinkeji.top,DIRECT
   - DOMAIN-SUFFIX,fuziche.com,DIRECT
   - DOMAIN-SUFFIX,fzshouji.com,DIRECT
   - DOMAIN-SUFFIX,fzvcolco.com,DIRECT
@@ -1332,6 +1299,7 @@ rules:
   - DOMAIN-SUFFIX,jzagile.com,DIRECT
   - DOMAIN-SUFFIX,kaihong.com,DIRECT
   - DOMAIN-SUFFIX,kaijiejinrong.com,DIRECT
+  - DOMAIN-SUFFIX,kaipanhong.com,DIRECT
   - DOMAIN-SUFFIX,kancaibao.com,DIRECT
   - DOMAIN-SUFFIX,kaspersky-labs.com,DIRECT
   - DOMAIN-SUFFIX,kaspersky.com,DIRECT
@@ -1439,6 +1407,7 @@ rules:
   - DOMAIN-SUFFIX,qmeng.top,DIRECT
   - DOMAIN-SUFFIX,quanxinfu.com,DIRECT
   - DOMAIN-SUFFIX,qweatherapi.com,DIRECT
+  - DOMAIN-SUFFIX,qzyun.net,DIRECT
   - DOMAIN-SUFFIX,rayws.top,DIRECT
   - DOMAIN-SUFFIX,redenmc.com,DIRECT
   - DOMAIN-SUFFIX,registry.dockermirror.com,DIRECT
@@ -1557,6 +1526,7 @@ rules:
   - DOMAIN-SUFFIX,xkkapk.com,DIRECT
   - DOMAIN-SUFFIX,xn--4kq62z5rby2qupq9ub.top,DIRECT
   - DOMAIN-SUFFIX,xn--cesw6hd3s99f.com,DIRECT
+  - DOMAIN-SUFFIX,xn--vhqr42drhf5k7b.com,DIRECT
   - DOMAIN-SUFFIX,xopenbeta.com,DIRECT
   - DOMAIN-SUFFIX,xuanyuancode.com,DIRECT
   - DOMAIN-SUFFIX,xuepaipai.com,DIRECT
